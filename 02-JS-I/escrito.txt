@@ -1,0 +1,24 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+for : Es un bucle de iteración que repite cierta cantidad de veces una acción mientras se cumpla una condición, y generalmente para su funcionamiento le pasamos ciertos parámetros que definen cuantas veces o hasta cuándo se va a ejecutar esa repetición.
+
+
+&&, ||, !  : Son operadores lógicos; el primero (AND) es para jugar entre dos condiciones cuando queremos hacer algo solo si ambas se cumplen generalmente, el segundo (OR) lo usamos cuando queremos que algo se ejecute si se cumple (o no tal vez si lo combinamos con el siguiente) alguna de esas condiciones, y por último el NOT, que se usa delante de alguna expresión para que la condición sea negativa.
+
+
+Arrays : Un array es una lista de elementos, estos pueden ser de cualquier tipo, y mediante diferentes funciones podemos agregar, quitar, o modificar elementos de la lista accediendo a generalmente por su índice, tal vez una buena imagen es la de un locker con varios casilleros (que generalmente también tienen un numero). 
+
+
+Objetos : Un objeto es una “colección de propiedades” (me encanto la definición) que llevan asignado o guardan un valor; y lo que está bueno en referencia a un array es que podemos manejarlo de forma más amigable (hablando sencillo y sin extendernos).
+
+
+Propiedades : Son los nombres asociados a un valor, que generalmente hacen referencia a alguna característica particular de cierto tipo de objetos; me gusta hacer esta salvedad, según como puedo describirlo con mi entendimiento, para diferenciarlas por ej de una variable, que también podríamos decir que es un nombre por el cual accedemos o está relacionado a un valor.
+
+
+Métodos: Los métodos o funciones son un conjunto de instrucciones que le pasamos al intérprete del lenguaje para que ejecute una acción.
+
+
+Bucle for…in : Es una de las variantes del bucle for que parece estar diseñada especialmente para trabajar con objetos mediante sus propiedades.
+
+
+Notación de puntos vs notación de corchetes: Mientras la de corchetes es más parecida a la forma en que ya manejábamos los arrays, que sigue siendo válida y esta buena porque acepta variables en su interior, la de de puntos es la propia que incorporan los objetos y hace muy fácil el trabajo y organización, la lectura y el acceso de y a cualquier propiedad de los objetos.

@@ -1,0 +1,8 @@
+/* Agregué solo lo solicitado porque entiendo buscan un ejemplo básico y para facilitar su lectura y correccion */
+body {display: flexbox; background-image: url("https://w0.peakpx.com/wallpaper/901/891/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.jpg"); color:white; text-align: center;}
+div {margin-right: auto; margin-left: auto;}
+h1 {color: crimson;}
+img {width: 400px;}
+#thirdDiv {height: 600px; width: 500px; background-color: #222; padding: 50px; border: 2px solid silver}
+#spanId {font-size: 18px; margin:50px}
+a {color: gray}
