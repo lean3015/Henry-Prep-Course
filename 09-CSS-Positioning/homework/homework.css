@@ -1,38 +1,45 @@
-/*
-Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
-archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
-*/
+/* Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro archivo en cualquiera de estas carpetas, estás en el lugar equivocado. */
+
 
 /* Ejercicio 1: Centrar el texto en un span */
-
-/* Arrancaremos este ejercicio por vos: */
-#ejercicioUno {
-
-}
+#ejercicioUno { display:block; text-align:center }
 
 
 /* Ejercicio 2: Posicionar el header */
-
-/* Acá va tu código */
-
+#ejercicioDos {         /* uso visibility hidden y no display none */
+  visibility:hidden;   /* porque si es un placehoder... */ 
+}                       /* me parece lo mas correcto */
 
 
 /* Ejercicio 3: */
-
-/* Acá va tu código */
-
+#ejercicioTres {
+  /* position: absolute; */
+  margin-top:100;       /* no me quedo claro si querian... */
+  margin-left:200px     /* position relative o absolute */
+}
 
 
 /* Ejercicio 4: */
-
-/* Acá va tu código */
-
+#ejercicioCuatro {
+  position:fixed;
+  top:0
+}
 
 
 /* Ejercicio 5: */
-
-/* Acá va tu código */
-
+#ejercicioCinco {
+  display:flex;
+  align-items:center;
+  justify-content:space-between
+}
 
 
 /* Ejercicio 6. */
+#ejercicioCinco { flex-direction:row-reverse }
+
+
+/* Ejercicio 7. */
+#ejercicioSiete { flex-direction:row-reverse }
+#elementoCuatro { margin-top:auto }
+#elementoTres { margin-top:195px }
+#elementoDos { margin-top:100px }
