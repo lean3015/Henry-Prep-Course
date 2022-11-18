@@ -22,3 +22,9 @@ Bucle for…in : Es una de las variantes del bucle for que parece estar diseñad
 
 
 Notación de puntos vs notación de corchetes: Mientras la de corchetes es más parecida a la forma en que ya manejábamos los arrays, que sigue siendo válida y esta buena porque acepta variables en su interior, la de de puntos es la propia que incorporan los objetos y hace muy fácil el trabajo y organización, la lectura y el acceso de y a cualquier propiedad de los objetos.
+
+
+Prototype: Sería prácticamente el equivalente a la clase a la cual pertenece un objeto y del cual hereda sus propiedades sin necesidad de declararlas en cada instancia, cuando solicitamos una propiedad que un objeto no posee, esta va a ser buscada automáticamente a su prototipo, y este al suyo, etc.
+
+
+Constructors: Es una función que usamos para crear objetos, y generalmente lo que va a hacer es asignarle ciertas propiedades.
