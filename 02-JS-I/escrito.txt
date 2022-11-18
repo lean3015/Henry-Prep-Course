@@ -28,3 +28,6 @@ Prototype: Sería prácticamente el equivalente a la clase a la cual pertenece u
 
 
 Constructors: Es una función que usamos para crear objetos, y generalmente lo que va a hacer es asignarle ciertas propiedades.
+
+
+Funciones Callback: es el nombre con el que se denomina a una función que está siendo pasada como parametro a otra. Importante: si este callback vamos a querer usarlo como función dentro de la nueva (que es para lo que generalmente vamos a pasarla como parámetro) tenemos que pasarla NO invocada, dado que si la pasamos invocada lo que estaríamos pasando en realidad no sería la función sino el resultado de la misma (como por ej, un string); entonces si adentro esa función vamos a querer usarla como tal, perdería funcionalidad porque sería solamente un producto de la misma, que no ejecuta nada.
